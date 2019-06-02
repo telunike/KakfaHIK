@@ -35,7 +35,7 @@ public class KafkaProducerTest {
 
     void produce() {
         int message = 1;
-        final int COUNT = 10;
+        final int COUNT = 1000;
         while (message < COUNT) {
             String key = String.valueOf(message);
             String data = "hello kafka message" + key;
